@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title> Drag and Drop </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="boards">
+            <div class="board">
+                <h3> Não iniciado </h3>
+                <div class="localdedrop"> 
+                    <div class="cards">
+                        <div class="status"></div>
+                        <div class="content"> 
+                            <h4 draggable="true"> Objeto 1 </h4>
+                            <h4 draggable="true"> Objeto 2 </h4>
+                            <h4 draggable="true"> Objeto 3 </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <h3>  Em progresso </h3>
+                <div class="localdedrop"> 
+                    <div class="cards" draggable="true">
+                        <div class="status"></div>
+                        <div class="content"> Intermediário 1 </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <h3> Finalizado </h3>
+                <div class="localdedrop"> 
+                    <div class="cards" draggable="true">
+                        <div class="status"></div>
+                        <div class="content"> Local 1 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
