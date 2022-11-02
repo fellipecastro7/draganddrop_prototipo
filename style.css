@@ -21,20 +21,25 @@ body {
 
 .dropzone {
     padding: 10px;
-    min-width: 13cm;
-    min-height: 10cm;
+    min-width: 14cm;
+    min-height: 20cm;
+}
+
+.cards, .dropzone {
+    transition: 400ms;
 }
 
 h3#drag {
     padding: 10px;
     text-align: center;
     margin-top: 25px;
+    margin-left: 2.6cm;
     font-size: 16px;
     font-weight: 550;
-}
-
-.cards, .dropzone {
-    transition: 400ms;
+    box-shadow: 0 0 0 2px gray;
+    width: 8.3cm;
+    height: 5.4cm;
+    border-radius: 10px;
 }
 
 h3#title {
@@ -43,7 +48,7 @@ h3#title {
     margin: 0;
     text-align: center;
     color: yellow;
-    box-shadow: 0 2px 2px -1px orange;
+    box-shadow: 0 3px 2px -2px orange;
     border-radius: 6px;
     padding: 10px;
 }
@@ -54,7 +59,6 @@ h3#title {
 
 .is-dragging {
     cursor: move;
-    opacity: 0.3;
 }
 
 .over {
