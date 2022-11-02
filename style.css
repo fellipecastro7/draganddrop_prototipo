@@ -1,7 +1,62 @@
 html {
     font-family: 'Nunito';
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+
 .boards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.board {
+    border: 1px solid purple;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #1C1C1C;
+}
+
+.dropzone {
+    padding: 10px;
+    min-width: 13cm;
+    min-height: 10cm;
+}
+
+h3#drag {
+    padding: 10px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.cards, .dropzone {
+    transition: 400ms;
+}
+
+h3#title {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    box-shadow: 0 2px 2px -1px orange;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.highlight {
+    background-color: #FD951F08;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 0.3;
+}
+
+.over {
+    background-color: #4cd13711;
 }
